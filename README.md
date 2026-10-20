@@ -2,9 +2,19 @@
 AI-powered healthcare platform for organizing medical records, prescriptions, diagnostic reports, and medical history in one secure, accessible place.
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&height=250&text=Thought%20Medione&fontSize=55&fontColor=ffffff&color=0:0f766e,50:0891b2,100:1e293b&stroke=0f766e&animation=fadeIn&fontAlignY=45&desc=Your%20Health.%20Your%20History.%20One%20Place.&descSize=17&descAlignY=65" width="100%" alt="Thought Medione banner"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&height=250&text=Thought%20Medione&fontSize=55&fontColor=ffffff&color=0:0f172a,50:0f766e,100:164e63&animation=fadeIn&fontAlignY=42&desc=Your%20Health.%20Your%20History.%20One%20Place.&descSize=18&descAlignY=65&descColor=ffffff" width="100%" alt="Thought Medione animated banner"/>
 
 <br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=17&pause=1500&color=0F766E&center=true&vCenter=true&width=600&lines=Your+Health.+Your+History.+One+Place.;AI-powered+healthcare%2C+reimagined.;One+home+for+your+medical+journey." alt="Animated Thought Medione tagline"/>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/AI-Powered-0f766e?style=for-the-badge&logo=openai&logoColor=white" alt="AI Powered"/>
+<img src="https://img.shields.io/badge/HealthTech-Innovation-164e63?style=for-the-badge" alt="HealthTech"/>
+<img src="https://img.shields.io/badge/Status-In%20Development-f59e0b?style=for-the-badge" alt="In Development"/>
+
+</div>
 
 ### 🩺 Your Personal Healthcare Records, Reimagined with AI
 
