@@ -193,7 +193,7 @@ CareVault is an evolving project. The actual technology stack should reflect the
 Replace `YOUR-USERNAME` with your GitHub username.
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/carevault.git
+git clone https://github.com/YOUR-USERNAME/carevault-vibe-coding.git
 ```
 
 ### 2. Enter the project directory
