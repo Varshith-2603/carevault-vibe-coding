@@ -1,0 +1,9 @@
+rx_id,medication,dosage,frequency,route,prescribing_doctor,start_date,end_date,refills_remaining,status,instructions,pharmacy,warnings
+RX-2026-081,Metoprolol Tartrate,50 mg,Once daily,Oral,Dr. Sarah Mitchell,2026-09-01,2027-03-01,3,Active,Take 1 tablet every morning with food. Do not discontinue abruptly.,Apollo Pharmacy #104,Avoid with asthma or severe bradycardia.
+RX-2026-082,Vitamin D3 (Cholecalciferol),"60,000 IU",Once weekly,Oral,Dr. Rahul Sharma,2026-08-15,2026-11-15,2,Active,Take 1 capsule every Sunday morning after a fatty meal.,MedPlus Pharmacy,Keep out of direct sunlight.
+RX-2026-083,Omeprazole,20 mg,Before breakfast,Oral,Dr. Priya Menon,2026-09-20,2026-11-20,1,Active,Take 1 capsule 30 minutes before morning meal with a full glass of water.,Apollo Pharmacy #104,Do not crush or chew capsule.
+RX-2026-084,Atorvastatin Calcium,10 mg,At bedtime,Oral,Dr. Sarah Mitchell,2026-06-10,2027-06-10,4,Active,Take 1 tablet at bedtime consistently.,Care Pharmacy Central,Report unexpected muscle tenderness or pain.
+RX-2026-085,Cetirizine Hydrochloride,10 mg,As needed for allergies,Oral,Dr. Priya Menon,2026-05-01,2026-11-01,2,Active,Take 1 tablet when allergic rhinitis symptoms occur (max 1 daily).,MedPlus Pharmacy,May cause mild drowsiness.
+RX-2026-086,Coenzyme Q10 (Ubiquinol),100 mg,Once daily,Oral,Dr. Sarah Mitchell,2026-06-15,2027-06-15,5,Active,Take 1 softgel daily with lunch as a metabolic dietary supplement.,Wellness Forefront,Dietary supplement.
+RX-2026-087,Lubricant Eye Drops (CMC 0.5%),2 drops,Twice daily,Ophthalmic,Dr. Anita Bose,2026-04-10,2026-10-30,2,Active,Instill 1 to 2 drops in both eyes morning and evening.,Apollo Pharmacy #104,Do not touch dropper tip to eye or skin surface.
+RX-2026-088,Multivitamin & Mineral Complex,1 tablet,Once daily,Oral,Dr. Rahul Sharma,2026-07-01,2027-01-01,3,Active,Take 1 tablet daily with midday meal.,MedPlus Pharmacy,Store in cool and dry place.

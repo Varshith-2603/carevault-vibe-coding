@@ -1,0 +1,7 @@
+streamlit>=1.50
+pandas>=2.0
+plotly>=5.18
+cryptography>=42
+pypdf>=4.0
+anthropic>=1.15
+qrcode[pil]>=7.4

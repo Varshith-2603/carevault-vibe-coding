@@ -1,0 +1,12 @@
+# Patient data, database and encryption key — never commit
+instance/
+*.db
+*.db-wal
+*.db-shm
+secret.key
+.env
+
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/

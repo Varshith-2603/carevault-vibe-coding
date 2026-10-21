@@ -1,0 +1,46 @@
+[theme]
+base = "light"
+# Clinical teal + clean white "hospital" palette
+primaryColor = "#0F766E"
+backgroundColor = "#F2F7F7"
+secondaryBackgroundColor = "#E6F2F0"
+textColor = "#0F2A33"
+linkColor = "#0E7490"
+borderColor = "#D3E4E2"
+showWidgetBorder = true
+baseRadius = "0.7rem"
+buttonRadius = "0.6rem"
+baseFontSize = 15
+font = "Plus Jakarta Sans:https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap, sans-serif"
+codeFont = "monospace"
+redColor = "#B91C1C"
+greenColor = "#15803D"
+orangeColor = "#B45309"
+blueColor = "#0E7490"
+dataframeHeaderBackgroundColor = "#E6F2F0"
+chartCategoricalColors = ["#0F766E", "#0EA5E9", "#F59E0B", "#64748B", "#8B5CF6"]
+
+[theme.sidebar]
+backgroundColor = "#0B3B3F"
+secondaryBackgroundColor = "#12504F"
+textColor = "#E6F4F2"
+primaryColor = "#2DD4BF"
+borderColor = "#1E5E5C"
+linkColor = "#5EEAD4"
+
+[client]
+showSidebarNavigation = false
+toolbarMode = "minimal"
+showErrorDetails = "none"
+
+[server]
+headless = true
+# Security: keep cross-site request protection on (it was off in the old CareVault demo).
+enableXsrfProtection = true
+enableCORS = true
+maxUploadSize = 15
+# watchdog's native Windows watcher crashed the server under Python 3.14; polling is stable.
+fileWatcherType = "poll"
+
+[browser]
+gatherUsageStats = false

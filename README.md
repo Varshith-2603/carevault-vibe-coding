@@ -1,302 +1,218 @@
-<div align="center">
+# Thought Medione
 
-<br/>
+A personal health records app for individuals and families. Upload prescriptions, lab reports, scans and discharge
+summaries; keep them organised on a timeline; set reminders; and share selected records with a doctor through a
+secure, expiring link. Optional AI (Claude) reads documents and explains them in plain language, and you review
+everything it produces before it is saved.
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=800&size=60&duration=3000&pause=1200&color=0F766E&center=true&vCenter=true&width=750&height=100&lines=CareVault" alt="CareVault Animated Title"/>
+Built with Python, Streamlit and SQLite. Original files are stored encrypted.
 
-### Your Health. Your History. One Place.
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=2800&pause=900&color=115E59&center=true&vCenter=true&width=750&height=80&lines=Your+healthcare+journey%2C+organized.;Medical+records%2C+all+in+one+place.;Healthcare+meets+Artificial+Intelligence.;An+idea+built+with+Claude+AI." alt="Animated CareVault Tagline"/>
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:0F766E,50:0891B2,100:0F172A&section=header" width="75%" alt="Teal gradient divider"/>
-
-<br/>
-
-<img src="https://img.shields.io/badge/HEALTHTECH-AI%20POWERED-0F766E?style=for-the-badge" alt="AI-powered HealthTech"/>
-<img src="https://img.shields.io/badge/BUILT%20WITH-CLAUDE%20AI-D97757?style=for-the-badge" alt="Claude AI"/>
-<img src="https://img.shields.io/badge/APPROACH-VIBE%20CODING-6D28D9?style=for-the-badge" alt="Vibe Coding"/>
-<img src="https://img.shields.io/badge/STATUS-IN%20DEVELOPMENT-F59E0B?style=for-the-badge" alt="In Development"/>
-
-<br/><br/>
-
-**A smarter way to organize your medical journey.**
-
-Prescriptions. Diagnostic reports. Medical history.
-
-One vision: make healthcare information easier to manage.
-
-<br/>
-
-[The Idea](#-the-idea) · [Features](#-what-carevault-is-building) · [Vibe Coding](#-the-vibe-coding-journey) · [Roadmap](#-the-road-ahead)
-
-</div>
+> **Status:** working product foundation, tested locally. It is **not yet production-ready for real patient data**.
+> Read [Before going live](#before-going-live) first.
 
 ---
 
-## 💡 The Idea
-
-<div align="center">
-
-### What if your entire medical history lived in one place?
-
-</div>
-
-Medical records are often scattered across paper files, phone galleries, messaging apps, emails, diagnostic centers, and hospital portals.
-
-Finding an old prescription or retrieving an important report can become unnecessarily difficult.
-
-**CareVault** is an AI-powered healthcare records platform designed to help people organize, access, and understand their medical history.
-
-The vision is to create one convenient place for personal healthcare information, helping users maintain a clearer record of their healthcare journey.
-
-> 🩺 **Your Health. Your History. One Place.**
-
----
-
-## ✨ What CareVault Is Building
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 📂 Unified Medical Records
-
-A centralized place for prescriptions, laboratory reports, diagnostic documents, and other important healthcare records.
-
-</td>
-<td width="50%" valign="top">
-
-### 🤖 AI-Powered Assistance
-
-AI-assisted document processing and information extraction to help make medical records easier to organize and understand.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🗓️ Medical History Timeline
-
-A chronological view of medical documents and recorded healthcare events.
-
-</td>
-<td width="50%" valign="top">
-
-### 🔎 Smarter Record Discovery
-
-A vision for finding relevant medical information without manually searching through countless files.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🧠 Medical History Summaries
-
-AI-assisted summaries of existing records to help patients prepare for healthcare consultations.
-
-</td>
-<td width="50%" valign="top">
-
-### 🔐 Privacy-Conscious Healthcare
-
-A focus on secure access, responsible AI usage, and protecting sensitive personal health information.
-
-</td>
-</tr>
-</table>
-
-<sub>Note: These describe the product vision. Individual features may still be under development.</sub>
-
----
-
-## 🌊 The Vision in Motion
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=21&duration=2600&pause=900&color=0F766E&center=true&vCenter=true&width=750&height=100&lines=From+scattered+medical+records...;To+one+organized+healthcare+history.;From+manual+search...;To+AI-assisted+discovery.;From+an+idea...;To+CareVault." alt="CareVault Vision Animation"/>
-
-</div>
-
-CareVault aims to make medical information easier to organize, retrieve, and share when needed.
-
-The goal isn't to add AI everywhere simply because it exists. It's to use technology where it can make a meaningful difference.
-
-### Problems we're exploring
-
-* 📄 Lost or misplaced prescriptions.
-* 🧪 Diagnostic reports scattered across different locations.
-* 📱 Medical documents buried in phone galleries and messaging apps.
-* 🏥 Difficulty presenting a complete medical history during consultations.
-* 🔍 Time spent searching for specific reports.
-* 🗓️ Difficulty keeping track of documented follow-ups.
-
-**CareVault aims to turn scattered medical information into a more organized healthcare experience.**
-
----
-
-## 🤖 The Vibe Coding Journey
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/AI%20DEVELOPMENT-Claude%20AI-D97757?style=for-the-badge" alt="Claude AI Development"/>
-
-<br/><br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2500&pause=900&color=D97757&center=true&vCenter=true&width=750&height=100&lines=One+idea+to+start.;Claude+AI+to+build+with.;Experiment.+Debug.+Improve.;Turning+ideas+into+software." alt="Vibe Coding Animation"/>
-
-</div>
-
-### Built with Claude AI 🤝 Human Vision
-
-CareVault is being developed using **vibe coding**—an AI-assisted approach to software development that combines natural-language instructions, code generation, experimentation, and iteration.
-
-**Claude AI has been used to assist with the creation and development of CareVault.**
-
-The development process focuses on:
-
-* 💡 Exploring product ideas and defining useful features.
-* 🏗️ Assisting with application development.
-* 🎨 Improving the user experience.
-* 🛠️ Debugging and refining implementations.
-* 🚀 Iterating toward a more useful healthcare platform.
-
-The objective is to combine AI-assisted development with human judgment, testing, and thoughtful product design.
-
-> **Human vision. AI-assisted development. A real-world problem worth solving.**
-
----
-
-## 🛠️ Technology
-
-CareVault is an evolving project. The actual technology stack should reflect the frameworks, services, and libraries used in the current repository.
-
-| Component              | Purpose                                         |
-| ---------------------- | ----------------------------------------------- |
-| Frontend               | User interface and application experience       |
-| Backend                | Application logic and API services              |
-| Database               | Medical record metadata and application data    |
-| AI integration         | Document understanding and AI-assisted features |
-| Deployment             | Hosting and application access                  |
-| Development assistance | Claude AI                                       |
-
-*Replace these descriptions with the specific technologies verified in your project.*
-
----
-
-## 🚀 Getting Started
-
-### 1. Clone the repository
-
-Replace `YOUR-USERNAME` with your GitHub username.
+## Quick start
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/carevault-vibe-coding.git
+python -m venv .venv
+.venv\Scripts\activate            # Windows  (macOS/Linux: source .venv/bin/activate)
+pip install -r requirements.txt
+streamlit run app.py
 ```
 
-### 2. Enter the project directory
+Open http://localhost:8501 and either create an account or click **Explore with sample data**. You land on the
+**Dashboard**. The sample account has four family profiles (Ananya, her husband Vikram, father Ravi and son Aarav), and
+is entirely fictional and is created on first use. You can also create it from the command line:
 
 ```bash
-cd carevault
+python -m medione.seed      # demo@thoughtmedione.example / Sample-Health-2026
 ```
 
-### 3. Install dependencies
+## Features
 
-Follow the installation instructions for your application's existing technology stack.
+**Dashboard (first screen after sign-in).** It shows:
 
-For a Node.js project, this may be:
+- **At-a-glance facts:** blood group, allergies and conditions.
+- **Quick actions:** upload a record, book an appointment, log a symptom, log a reading, open the emergency card.
+- **Upcoming appointments,** each with a one-page *visit sheet* to take along.
+- **Pending for you:** AI readings to check, possible duplicates, past appointments to update, follow-up dates
+  written in records with no appointment booked, vaccines due, medicine courses ending, and insurance about to lapse.
+- **Health watch:** active symptoms with their trend, home readings outside general ranges, and lab values outside
+  the report's own range.
+- **Today:** reminders due today, latest readings with mini-trends, current medicines and recent records.
+
+### Everyday problems this solves
+
+| Real-world problem | How Thought Medione helps |
+|---|---|
+| Paper prescriptions and reports get lost; tests are repeated | Encrypted originals, search by anything, timeline |
+| Forgetting what to ask in a 5-minute consultation | Questions saved on the appointment plus a printable **visit sheet** (questions, symptoms, medicines, readings, results) |
+| "Since when? Is it getting worse?" is hard to answer | **Symptom diary** with severity over time and a worse/better trend |
+| Doctors can't see BP/sugar between visits | **Vitals** log with charts. Readings outside general adult ranges are highlighted. |
+| In an emergency nobody knows allergies, blood group or medicines | **Emergency card** with a QR code that shows only those facts. It can be turned off at any time, and every scan is logged. |
+| Missed follow-ups and vaccine doses | Follow-up and next-dose dates written in records surface on the dashboard |
+| Insurance lapses; claim papers scattered | Policy and bill record types, an expiry nudge, and claim status per bill |
+| Managing parents' and children's care | Separate family profiles, each with its own dashboard |
+
+### All features
+
+| Area | What it does |
+|---|---|
+| Appointments | Book a visit (doctor, place, type, time). Add questions and preparation notes, and download a calendar invite and the visit sheet. Afterwards, mark it completed, missed or cancelled and note the outcome. |
+| Symptoms & concerns | Track what's bothering you, log severity over time, and mark it resolved. Emergency warning signs to call 112 for are always shown. |
+| Vitals | Blood pressure, sugar (fasting, after a meal or random), pulse, SpO₂, temperature and weight. Charts include general reference bands, and readings are checked for obvious typos. |
+| Emergency card | A wallet card (printable HTML) plus an optional online version behind a QR code. It shows only blood group, allergies, conditions, current medicines and the emergency contact. |
+| Accounts | Email and password sign-in. Repeated wrong passwords lock the account temporarily. Sign-up shows a one-time **recovery code** for resetting the password (there's no email service). Sessions end after 30 minutes idle. |
+| Family profiles | Separate records, reminders and share links per person. Adding someone requires confirming you're authorised to manage their records. |
+| Records | 16 record types: consultations, admissions and discharge summaries, prescriptions, lab, imaging, ECG and other reports, diagnoses, surgeries, procedures, vaccinations, allergies, family history, referrals, certificates and other documents. Each type has its own fields. |
+| Provenance | Every record shows where it came from: *Entered by you*, *AI-extracted, not yet reviewed*, or *AI-extracted, reviewed by you*. *Verified by a clinician* is reserved for a future provider integration and can't be set by patients. |
+| Documents | PDF, JPG, PNG and WEBP up to 15 MB. The real file type is checked, not just the extension. Files are encrypted at rest and never modified. Text in PDFs is extracted locally for search. Uploading the exact same file twice is detected. |
+| Prescriptions | Medicines are stored exactly as written (dose, frequency, duration, instructions). Unclear items are flagged *Needs checking* until you confirm them. The app never changes or suggests treatment. |
+| Timeline | All records in date order, plus follow-up dates written in records. Each entry opens the full record and its files. |
+| Search | Every word you type must match somewhere in the record: fields, doctor, facility, medicines, tests, or text inside the PDF. You can also filter by type, dates, doctor, facility, condition, medicine, test and source, and export the results to CSV. With AI on, you can ask in your own words; results always come from your real records. |
+| Duplicates | Records with the same type, same date and a near-identical title are flagged for you to review. Nothing is deleted automatically. |
+| Lab results | Values for the same test are compared over time with a chart, but only when every report uses the same unit. The reference range shown is the one printed on each report. |
+| Doctors and facilities | A directory linked to records. Nothing about a doctor (specialty, credentials) is looked up or invented. |
+| Reminders | Reminders for medicines, follow-ups, tests, check-ups and vaccinations, either one-off or repeating. They show in the app and can be downloaded as a calendar file (`.ics`) for phone notifications. The app never works out dosing times itself; you choose them. |
+| Sharing | Off by default. You choose the records, who the link is for, and how long it lasts (1 hour to 30 days). You can turn a link off at any time, and every visit is logged. Recipients see only the selected records, plus an optional summary limited to those records. |
+| Health summary | A one-page HTML summary of allergies, medicines, diagnoses, procedures, tests and vaccinations, built **without AI**. |
+| **Medi** (help chatbot) | An animated robot in the bottom-right corner of every page ("May I help you?"). Tap it to ask about appointments, medicines, allergies, lab results, readings and what's pending, to find records in plain words, to explain medical terms and prescription short forms (BD, OD, SOS…), or to ask how to use the app. It answers from your own records and a built-in guide **without AI**. Emergency words always get the emergency numbers first, and it never advises on changing medicines. With AI switched on it can also answer open questions and write a history overview. |
+| **Automatic reminders from prescriptions** | Upload a prescription and the medicines are read straight away (AI for photos and handwriting; typed PDFs are read without AI). After you check and save, medicine reminders are created from what's written (1-0-1, BD, TDS, OD after dinner, HS, weekly, every 8 h…) and run until the course ends. The follow-up appointment is added from a written date or from "review after 2 weeks", with a reminder the day before. Medicines marked SOS or "when needed", unclear entries and finished courses are skipped, with the reason shown. You can switch this off before saving, or trigger it later from the record page. |
+| Plain-language search | *"latest blood test"*, *"prescriptions from last year"*, *"MRI from March"*, *"records from Dr. Iyer"* — understood without AI (Records → *Ask in your own words*). It says clearly when nothing matches. |
+| Ask about a document | With AI on: ask your own question about an uploaded report. Answers keep **what the document says** separate from general information. |
+| Change history | Every edit to a record is kept with before/after values, so verified details are never silently lost. |
+| Your data | Download everything (data plus original files) as a ZIP, view the activity log, or delete the account and all its data. |
+
+## Configuration
+
+All settings come from environment variables; none are stored in the code.
+
+| Variable | Default | Purpose |
+|---|---|---|
+| `MEDIONE_ENV` | `development` | Set `production` to require an encryption key and disable the demo account |
+| `MEDIONE_ENCRYPTION_KEY` | generated in `instance/secret.key` | Fernet key for documents. **Required in production.** Generate one with `python -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())"`. Losing it makes stored files unreadable. |
+| `MEDIONE_DATA_DIR` | `./instance` | Database and encrypted files |
+| `MEDIONE_BASE_URL` | `http://localhost:8501` | Used to build share links (set to your public `https://` address) |
+| `MEDIONE_ENABLE_DEMO` | on in development | Shows the **Explore with sample data** button |
+| `MEDIONE_SESSION_TIMEOUT_MIN` | `30` | Idle sign-out |
+| `MEDIONE_MAX_UPLOAD_MB` | `15` | Upload limit (keep `server.maxUploadSize` in `.streamlit/config.toml` in step) |
+| `MEDIONE_PBKDF2_ITERATIONS` | `600000` | Password hashing cost |
+| `ANTHROPIC_API_KEY` | not set | Turns on AI features (or use `ant auth login` plus `MEDIONE_AI_ENABLED=1`) |
+| `MEDIONE_AI_MODEL` | `claude-opus-5-5` | Claude model used for AI features |
+
+`instance/` holds the database, documents and key. It is in `.gitignore`. **Never commit it.**
+
+## AI features
+
+- **When it's on:** only when the server has Anthropic credentials *and* the signed-in user has accepted the
+  consent notice (Settings → AI features). Consent can be withdrawn at any time.
+- **What gets sent:** only the active profile's records or the one document being processed, and only when the user
+  presses an AI button.
+- **Safety rules:** these are enforced in the system prompt (`medione/ai/client.py`). The AI must not invent missing
+  values, must flag unclear text, must copy wording as written, must not diagnose, and must not suggest starting,
+  stopping or changing treatment.
+- **Structured output:** responses are constrained JSON, so extractions open in an editable form for review rather
+  than being saved directly.
+- **Refusals:** the requests opt into Anthropic's server-side refusal fallback (`fallbacks: "default"`). If a request
+  is still refused, the user gets a clear error.
+- **Without AI:** everything else works without AI. Without it, users type in the details, helped by the text
+  extracted locally from PDFs.
+
+## Security model
+
+- **Access control:** every data function takes the signed-in user's id and checks ownership in SQL. The UI can't
+  reach another account's or another profile's data by passing a different id. Tests cover this.
+- **Passwords:** PBKDF2-SHA256 (600k iterations) with a random salt. Recovery codes are hashed the same way and can
+  only be used once.
+- **Share links:** 256-bit random tokens. Only their SHA-256 hash is stored. Each visit re-checks expiry,
+  revocation and record ownership.
+- **Uploads:** files are checked for size and magic bytes, then encrypted with Fernet and saved under random names.
+  File names are sanitised.
+- **Audit log:** records sign-ins, failures, lockouts, record changes, document opens, and share creation, visits
+  and revocation. It never stores passwords, tokens or medical content.
+- **Streamlit:** XSRF protection is on (it was off in the old demo). Error details are hidden from users and usage
+  statistics are off.
+
+## Tests
 
 ```bash
-npm install
+pip install pytest
+python -m pytest tests -q
 ```
 
-### 4. Configure environment variables
+The 102 tests cover:
 
-Create a local `.env` file if required.
+- Authentication, lockout and recovery.
+- Isolation between users and between family profiles.
+- Share-link scope, expiry and revocation.
+- Upload validation, encryption at rest and duplicate detection.
+- Search, the timeline, duplicates and lab trends.
+- Reminder scheduling and the calendar export.
+- Appointments, the symptom diary, vital-sign flags and validation, the emergency card's scope and revocation, and
+  the dashboard to-do logic.
+- The AI wrapper, using a fake client.
+- Headless runs of the real Streamlit app: every page, sign-up, record creation, profile switching, review, and the
+  public share view.
 
-Configure the necessary API keys, database credentials, and other settings.
+## Before going live
 
-**Never commit private API keys, passwords, database credentials, or real patient records to GitHub.**
+These are **not done**. Each one needs a decision or a human review.
 
-### 5. Run the application
+1. **Hosting and HTTPS.**
+   - Run behind a TLS-terminating reverse proxy.
+   - Set `MEDIONE_ENV=production`, `MEDIONE_BASE_URL` and `MEDIONE_ENCRYPTION_KEY` (stored in a secrets manager).
+   - Restrict who can reach the server.
+2. **Database encryption and backups.**
+   - Documents are encrypted, but the SQLite database (record text) is not. Use an encrypted disk/volume or SQLCipher.
+   - Set up encrypted, tested backups of `instance/` and a separate backup of the key.
+   - For multiple servers or larger scale, move to PostgreSQL.
+3. **Sessions.** A Streamlit session ends when the page is refreshed, so users sign in again. That is safe, but a
+   cookie-based session layer would make it more convenient.
+4. **Account recovery.** Recovery codes only. Adding email verification and email/OTP recovery needs an email or SMS
+   provider.
+5. **Rate limiting.** Lockout is per account. Add IP-level rate limiting at the proxy.
+6. **India: DPDP Act, 2023 and DPDP Rules, 2025.** A legal review is needed before real users. The rules come into
+   force in phases, so confirm the current dates. Items to cover:
+   - Consent notice wording and record-keeping.
+   - A grievance officer and a contact process.
+   - Erasure and correction (built in) and data retention periods.
+   - A breach-notification procedure.
+   - Verifiable parental consent for children's profiles.
+   - Cross-border transfer when AI is used (the Claude API may process data outside India).
+   - Anthropic's data-processing terms.
+   - ABDM/ABHA requirements if you integrate with India's digital health stack later.
 
-Use the development command configured for your project.
+   **This app does not claim regulatory compliance.**
+7. **Security review.** Have an independent penetration test and code review done before handling real health data.
+8. **Medical and clinical review.** Have a clinician review AI prompts, labels and disclaimers.
 
-For a Node.js application, this might be:
+## Project structure
 
-```bash
-npm run dev
+```
+app.py                    Entry point: share-link route, sign-in gate, sidebar, page router
+medione/
+  config.py               Environment-based settings
+  db.py                   SQLite schema (additive changes only)
+  security.py             Password hashing, tokens, document encryption
+  auth.py                 Accounts, lockout, recovery, consent, account deletion
+  audit.py                Activity log
+  models.py               Record types, categories, provenance labels
+  seed.py                 Fictional sample account (+ tiny PDF generator)
+  services/               Ownership-checked data services
+    access.py profiles.py directory.py records.py documents.py search.py
+    summary.py reminders.py sharing.py exports.py
+    appointments.py health.py emergency.py dashboard.py visit_prep.py
+  ai/client.py            Claude wrapper with safety rules and structured output
+  ai/tasks.py             Extraction, summaries, explanations, search-to-filters
+  services/helpbot.py     Medi's answers (records, FAQ, glossary, safety rules)
+  services/nlsearch.py    Plain-language search without AI
+  ui/                     Streamlit screens (ui/pages/*), Medi chatbot (ui/chatbot.py), widgets, theme
+tests/                    pytest suites
+legacy_carevault/         The previous CareVault demo, archived unchanged
 ```
 
-The exact commands depend on the framework and configuration used in your repository.
+## Medical disclaimer
 
----
-
-## 🗺️ The Road Ahead
-
-CareVault is a work in progress.
-
-* [x] 💡 Establish the CareVault concept.
-* [x] 🏗️ Begin application development.
-* [ ] 📂 Improve medical document organization.
-* [ ] 🤖 Expand AI-assisted prescription processing.
-* [ ] 🔎 Improve medical record discovery.
-* [ ] 🗓️ Refine the medical history timeline.
-* [ ] 📊 Explore historical diagnostic result comparisons.
-* [ ] 🧠 Improve AI-assisted medical summaries.
-* [ ] 🔔 Develop healthcare reminders.
-* [ ] 🔐 Strengthen privacy and access controls.
-* [ ] 🌐 Deploy and test the application.
-* [ ] 💬 Gather feedback and improve the experience.
-
-*Update this checklist as features are implemented and tested.*
-
----
-
-## 🔒 Privacy & Responsible AI
-
-Medical information is sensitive. Security and privacy must remain central to CareVault's development.
-
-The project aims to prioritize:
-
-* 🔐 Appropriate authentication and access controls.
-* 🛡️ Secure handling of medical documents.
-* 🔑 Protection of credentials and API keys.
-* 📄 Preservation of original medical records.
-* ✅ Clear distinction between AI-extracted and verified information.
-* 🧠 Responsible use of AI-generated explanations.
-* 👤 Appropriate control over access to personal health information.
-
-AI-generated summaries and explanations are not a substitute for professional medical advice.
-
-**Never upload real patient information to an unverified deployment.**
-
----
-
-## 🌱 Why CareVault?
-
-Because important medical records deserve better organization.
-
-Because finding your medical history should be easier.
-
-Because AI should help solve meaningful problems.
-
-And because a simple idea can be the beginning of something bigger.
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=800&size=34&duration=2800&pause=1000&color=0F766E&center=true&vCenter=true&width=750&height=90&lines=CareVault" alt="CareVault Animated Closing Title"/>
-
-### Your Health. Your History. One Place.
-
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=16&duration=2800&pause=900&color=115E59&center=true&vCenter=true&width=700&height=60&lines=Think+healthcare.;Think+simplicity.;Think+AI.;Build+something+meaningful." alt="Animated Closing Message"/>
-
-<br/><br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:0F766E,100:0891B2&height=130&section=footer" width="100%" alt="CareVault Footer Banner"/>
-
-<sub>Made with 💚, curiosity, and a little bit of vibe coding.</sub>
-
-</div>
+Thought Medione stores and organises health information. It does not provide medical advice, diagnosis or treatment,
+and it is not connected to any hospital system. In an emergency call **112** (India).

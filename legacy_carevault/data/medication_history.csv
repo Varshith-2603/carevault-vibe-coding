@@ -1,0 +1,17 @@
+history_id,medication,dosage,start_date,end_date,prescribed_by,reason,status,notes
+MH-2026-016,Amoxicillin Clavulanate,625 mg,2026-06-10,2026-06-17,Dr. Rahul Sharma,Bacterial sinus infection,Completed,Full 7-day course completed. Infection resolved.
+MH-2026-015,Ibuprofen,400 mg,2026-05-05,2026-05-12,Dr. Arjun Rao,Knee strain pain management,Completed,Taken with meals for acute patellar strain. Discontinued after pain subsided.
+MH-2026-014,Azithromycin,500 mg,2026-03-02,2026-03-06,Dr. Rahul Sharma,Acute bronchial irritation,Completed,3-day course. Tolerated well.
+MH-2026-013,Paracetamol,650 mg,2026-08-18,2026-08-22,Dr. Rahul Sharma,Viral fever & body ache,Completed,Used PRN for viral pyrexia. Complete fever lysis.
+MH-2026-012,Fluticasone Propionate Nasal Spray,50 mcg,2025-11-28,2026-01-28,Dr. Sneha Kulkarni,Seasonal allergic rhinitis,Completed,2-month seasonal therapy completed.
+MH-2026-011,Prednisolone,20 mg taper,2025-08-14,2025-08-21,Dr. Priya Menon,Severe contact dermatitis rash,Completed,7-day tapering regimen. Lesions fully cleared.
+MH-2026-010,Pantoprazole,40 mg,2025-04-10,2025-05-10,Dr. Vikram Seth,Gastric acidity flare,Completed,Switched to Omeprazole 20mg subsequently.
+MH-2026-009,Ciprofloxacin Eye Drops,0.3%,2025-06-01,2025-06-07,Dr. Anita Bose,Mild conjunctival hyperaemia,Completed,5-day topical course. Resolved without sequelae.
+MH-2026-008,Diclofenac Sodium Gel,1%,2025-03-12,2025-03-22,Dr. Arjun Rao,Mechanical lumbar spasm,Completed,Topical application twice daily for 10 days.
+MH-2026-007,Oseltamivir,75 mg,2025-01-08,2025-01-13,Dr. Rahul Sharma,Influenza prophylaxis & therapy,Completed,5-day antiviral course during seasonal flu peak.
+MH-2026-006,Cetirizine,5 mg,2024-10-20,2024-11-20,Dr. Priya Menon,Chronic urticaria surveillance,Completed,Dose stepped up to 10mg PRN.
+MH-2026-005,Aspirin low dose,75 mg,2024-11-05,2025-01-05,Dr. Sarah Mitchell,Transient vascular evaluation,Discontinued,Discontinued after cardiology stress evaluation showed no ischemia.
+MH-2026-004,Doxycycline,100 mg,2024-06-12,2024-06-22,Dr. Priya Menon,Folliculitis treatment,Completed,10-day oral course. Clean healing.
+MH-2026-003,Hydrocortisone Cream,1%,2024-08-16,2024-08-26,Dr. Priya Menon,Localized skin rash,Completed,Topical symptom relief.
+MH-2026-002,Montelukast Sodium,10 mg,2024-03-01,2024-05-01,Dr. Sneha Kulkarni,Seasonal airway hyperresponsiveness,Completed,Completed 60-day spring trial.
+MH-2026-001,Naproxen,250 mg,2024-01-15,2024-01-22,Dr. Arjun Rao,Acute sports ankle twist,Completed,Anti-inflammatory course. Full recovery.
